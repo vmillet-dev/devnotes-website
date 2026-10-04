@@ -1,0 +1,41 @@
+<!doctype html><html lang="fr"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>DevNotes — snippets, notes et requêtes HTTP, hors ligne</title>
+<meta name="description" content="Une seule application pour vos snippets, notes, outils de développement et requêtes HTTP. Tout reste sur votre machine.">
+<meta name="theme-color" content="#101218"><link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet"><link rel="stylesheet" href="css/style.css"></head><body>
+<header class="nav"><div class="w"><b>DevNotes</b><a class="l" href="#fonctions">Fonctionnalités</a><a class="l" href="#prive">Confidentialité</a><a class="l" href="#raccourcis">Raccourcis</a><a href="docs.html">Documentation</a><a class="btn p" href="#telecharger">Télécharger</a></div></header>
+<main>
+<section class="w hero"><div><h1>Vos snippets, notes et requêtes HTTP. Au même endroit, hors ligne.</h1>
+<p>DevNotes range ce que vous réutilisez tous les jours, le retrouve en une frappe et ne laisse rien sortir de votre machine.</p>
+<a class="btn p" href="#telecharger">Télécharger</a><a class="btn" href="docs.html">Lire la doc</a></div>
+<div class="win" aria-label="Aperçu de la bibliothèque"><div class="sb">⌕ <span id="q">#infra</span><kbd>Ctrl K</kbd></div><div class="cards">
+<div class="card"><i class="pill nt">NOTE</i><b>Compte rendu — migration Postgres 16</b><code>Bascule le 14/10 à 22 h</code><small>#infra #réunion</small></div>
+<div class="card"><i class="pill sh">SH</i><b>Rotation des logs nginx</b><code>logrotate -f /etc/logrotate.d/nginx</code><small>#infra</small></div>
+<div class="card"><i class="pill sql">SQL</i><b>Commandes sans facture</b><code>SELECT o.id FROM orders o LEFT JOIN invoices i…</code><small>#sql</small></div>
+<div class="card"><i class="pill yml">YML</i><b>docker-compose — override local</b><code>services: api: environment:</code><small>#docker</small></div>
+<div class="card"><i class="pill ts">TS</i><b>Hook useDebounce</b><code>export function useDebounce&lt;T&gt;(</code><small>#front</small></div>
+<div class="card"><i class="pill nt">NOTE</i><b>Idées — refonte de la recherche</b><code>Index en mémoire au déverrouillage</code><small>#produit</small></div></div></div></section>
+<div class="w proof"><div><b>24</b><span>formats de snippets</span></div><div><b>14</b><span>outils hors ligne</span></div><div><b>20</b><span>langages de génération de code</span></div><div><b>0</b><span>appel réseau</span></div></div>
+<section class="w" id="fonctions"><h2>Tout ce qu’il vous faut sous la main</h2><p>Faites défiler : l’écran à droite montre chaque fonctionnalité en action.</p>
+<div class="story"><div>
+<div class="step on" data-i="0"><h3>Une bibliothèque qui se range toute seule</h3><p>Espaces, tags, filtres par type, tri et regroupement par priorité. Un clic droit suffit pour épingler, copier ou changer la priorité.</p></div>
+<div class="step" data-i="1"><h3>Formatez votre code en un raccourci</h3><p>Prettier formate TypeScript, JSON, CSS, YAML et plus encore. Les lignes modifiées sont surlignées et l’annulation tient en un <kbd>Ctrl Z</kbd>.</p></div>
+<div class="step" data-i="2"><h3>Lisez un JSON comme une carte</h3><p>Le graphe déplie les objets nœud par nœud, copie le chemin <code>$.data.object.lines[0]</code> et bascule vers l’arbre pour les gros documents.</p></div>
+<div class="step" data-i="3"><h3>Testez vos API sans quitter l’app</h3><p>Collections, environnements, scripts, tests et runner. Générez le code de la requête dans 20 langages, secrets masqués par défaut.</p></div>
+</div>
+<div class="stage" aria-hidden="true">
+<div class="scene on"><div class="win"><span class="grp">Urgente · 2</span><div class="mc"><i class="pill nt">NOTE</i><b>Rotation des secrets Stripe</b></div><div class="mc"><i class="pill sh">SH</i><b>Purger la file RabbitMQ bloquée</b></div><span class="grp">Haute · 3</span><div class="mc"><i class="pill sql">SQL</i><b>Index manquant sur orders</b></div></div></div>
+<div class="scene"><div class="win"><pre class="code"><span class="hl">@Injectable({ providedIn: 'root' })</span>export class InvoicesApi {
+  private readonly http = inject(HttpClient);
+<span class="hl">  return this.http.get&lt;Invoice[]&gt;(url, {</span><span class="hl">    params: { page, limit: 50 },</span>  });
+}</pre><div class="toast"><i>✓</i> Formaté avec Prettier · 9 lignes modifiées</div></div></div>
+<div class="scene"><div class="win" style="position:relative"><svg viewBox="0 0 400 200" style="position:absolute;inset:0;width:100%;height:100%"><path d="M90 60H130V100H170"/><path d="M250 100H280V150H300"/></svg><div class="node" style="left:6%;top:22%">$ <em>{5}</em></div><div class="node" style="left:40%;top:40%">object <em>{6}</em></div><div class="node" style="left:72%;top:66%">lines[0] <em>{4}</em></div></div></div>
+<div class="scene"><div class="win"><div class="row"><i>✓</i>Auth › Login<span>200 · 88 ms</span></div><div class="row"><i>✓</i>Factures › Lister<span>200 · 142 ms</span></div><div class="row bad"><i>✗</i>Factures › Payer<span>402 · attendu "eur", reçu "usd"</span></div><div class="row"><i>✓</i>Clients › Mettre à jour<span>200 · 96 ms</span></div></div></div>
+</div></div></section>
+<section class="w priv" id="prive"><div><h2>Tout reste <em>sur cette machine</em></h2><p>Ce que vous collez ne quitte pas l’application. Aucun outil n’appelle le réseau.</p></div>
+<ul><li>Les secrets sont scellés dans la bibliothèque, comme le corps des notes.</li><li>Ils ne sont jamais exportés ni partagés : la génération de code écrit {{clientSecret}} à leur place.</li><li>Ils restent masqués à l’écran et dans la console, sauf sur demande.</li></ul></section>
+<section class="w" id="raccourcis"><h2>Pensé pour le clavier</h2><p>Appuyez sur une combinaison : la touche s’allume.</p><div class="keys">
+<div class="key" tabindex="0" data-k="Ctrl K">Rechercher<kbd>Ctrl K</kbd></div><div class="key" tabindex="0" data-k="Ctrl N">Snippet de code<kbd>Ctrl N</kbd></div><div class="key" tabindex="0" data-k="Ctrl Maj N">Note<kbd>Ctrl Maj N</kbd></div><div class="key" tabindex="0" data-k="Ctrl Maj L">Liste de tâches<kbd>Ctrl Maj L</kbd></div><div class="key" tabindex="0" data-k="Ctrl Maj Alt F">Formater<kbd>Maj Alt F</kbd></div><div class="key" tabindex="0" data-k="Ctrl Maj T">Chercher un outil<kbd>Ctrl Maj T</kbd></div></div></section>
+<section class="w cta" id="telecharger"><h2>Gardez tout sous la main</h2><p>Gratuit pour essayer, sans compte.</p><!-- Remplacez href par votre lien de téléchargement --><a class="btn p" href="#">Télécharger DevNotes</a></section>
+</main><footer><div class="w"><span>© DevNotes</span><a href="docs.html">Documentation</a></div></footer>
+<script src="js/main.js"></script></body></html>
