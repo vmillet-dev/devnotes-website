@@ -1,29 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url><loc>https://devnotes.fr/</loc></url>
-  <url><loc>https://devnotes.fr/docs</loc></url>
-  <url><loc>https://devnotes.fr/docs/client-api</loc></url>
-  <url><loc>https://devnotes.fr/docs/collage-rapide</loc></url>
-  <url><loc>https://devnotes.fr/docs/ecrire</loc></url>
-  <url><loc>https://devnotes.fr/docs/faq</loc></url>
-  <url><loc>https://devnotes.fr/docs/import-export</loc></url>
-  <url><loc>https://devnotes.fr/docs/outils</loc></url>
-  <url><loc>https://devnotes.fr/docs/preferences</loc></url>
-  <url><loc>https://devnotes.fr/docs/prise-en-main</loc></url>
-  <url><loc>https://devnotes.fr/docs/ranger</loc></url>
-  <url><loc>https://devnotes.fr/docs/securite</loc></url>
-  <url><loc>https://devnotes.fr/en</loc></url>
-  <url><loc>https://devnotes.fr/en/docs</loc></url>
-  <url><loc>https://devnotes.fr/en/docs/api-client</loc></url>
-  <url><loc>https://devnotes.fr/en/docs/faq</loc></url>
-  <url><loc>https://devnotes.fr/en/docs/getting-started</loc></url>
-  <url><loc>https://devnotes.fr/en/docs/import-export</loc></url>
-  <url><loc>https://devnotes.fr/en/docs/organising</loc></url>
-  <url><loc>https://devnotes.fr/en/docs/quick-paste</loc></url>
-  <url><loc>https://devnotes.fr/en/docs/security</loc></url>
-  <url><loc>https://devnotes.fr/en/docs/settings</loc></url>
-  <url><loc>https://devnotes.fr/en/docs/tools</loc></url>
-  <url><loc>https://devnotes.fr/en/docs/writing</loc></url>
-  <url><loc>https://devnotes.fr/en/download</loc></url>
-  <url><loc>https://devnotes.fr/telecharger</loc></url>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url><loc>https://devnotes.fr/</loc><xhtml:link rel="alternate" hreflang="fr" href="https://devnotes.fr/"/><xhtml:link rel="alternate" hreflang="en" href="https://devnotes.fr/en"/><xhtml:link rel="alternate" hreflang="x-default" href="https://devnotes.fr/"/></url>
+  <url><loc>https://devnotes.fr/docs</loc><xhtml:link rel="alternate" hreflang="fr" href="https://devnotes.fr/docs"/><xhtml:link rel="alternate" hreflang="en" href="https://devnotes.fr/en/docs"/><xhtml:link rel="alternate" hreflang="x-default" href="https://devnotes.fr/docs"/></url>
+  <url><loc>https://devnotes.fr/docs/client-api</loc><xhtml:link rel="alternate" hreflang="fr" href="https://devnotes.fr/docs/client-api"/><xhtml:link rel="alternate" hreflang="en" href="https://devnotes.fr/en/docs/api-client"/><xhtml:link rel="alternate" hreflang="x-default" href="https://devnotes.fr/docs/client-api"/></url>
+  <url><loc>https://devnotes.fr/docs/collage-rapide</loc><xhtml:link rel="alternate" hreflang="fr" href="https://devnotes.fr/docs/collage-rapide"/><xhtml:link rel="alternate" hreflang="en" href="https://devnotes.fr/en/docs/quick-paste"/><xhtml:link rel="alternate" hreflang="x-default" href="https://devnotes.fr/docs/collage-rapide"/></url>
+  <url><loc>https://devnotes.fr/docs/ecrire</loc><xhtml:link rel="alternate" hreflang="fr" href="https://devnotes.fr/docs/ecrire"/><xhtml:link rel="alternate" hreflang="en" href="https://devnotes.fr/en/docs/writing"/><xhtml:link rel="alternate" hreflang="x-default" href="https://devnotes.fr/docs/ecrire"/></url>
+  <url><loc>https://devnotes.fr/docs/faq</loc><xhtml:link rel="alternate" hreflang="fr" href="https://devnotes.fr/docs/faq"/><xhtml:link rel="alternate" hreflang="en" href="https://devnotes.fr/en/docs/faq"/><xhtml:link rel="alternate" hreflang="x-default" href="https://devnotes.fr/docs/faq"/></url>
+  <url><loc>https://devnotes.fr/docs/import-export</loc><xhtml:link rel="alternate" hreflang="fr" href="https://devnotes.fr/docs/import-export"/><xhtml:link rel="alternate" hreflang="en" href="https://devnotes.fr/en/docs/import-export"/><xhtml:link rel="alternate" hreflang="x-default" href="https://devnotes.fr/docs/import-export"/></url>
+  <url><loc>https://devnotes.fr/docs/outils</loc><xhtml:link rel="alternate" hreflang="fr" href="https://devnotes.fr/docs/outils"/><xhtml:link rel="alternate" hreflang="en" href="https://devnotes.fr/en/docs/tools"/><xhtml:link rel="alternate" hreflang="x-default" href="https://devnotes.fr/docs/outils"/></url>
+  <url><loc>https://devnotes.fr/docs/preferences</loc><xhtml:link rel="alternate" hreflang="fr" href="https://devnotes.fr/docs/preferences"/><xhtml:link rel="alternate" hreflang="en" href="https://devnotes.fr/en/docs/settings"/><xhtml:link rel="alternate" hreflang="x-default" href="https://devnotes.fr/docs/preferences"/></url>
+  <url><loc>https://devnotes.fr/docs/prise-en-main</loc><xhtml:link rel="alternate" hreflang="fr" href="https://devnotes.fr/docs/prise-en-main"/><xhtml:link rel="alternate" hreflang="en" href="https://devnotes.fr/en/docs/getting-started"/><xhtml:link rel="alternate" hreflang="x-default" href="https://devnotes.fr/docs/prise-en-main"/></url>
+  <url><loc>https://devnotes.fr/docs/ranger</loc><xhtml:link rel="alternate" hreflang="fr" href="https://devnotes.fr/docs/ranger"/><xhtml:link rel="alternate" hreflang="en" href="https://devnotes.fr/en/docs/organising"/><xhtml:link rel="alternate" hreflang="x-default" href="https://devnotes.fr/docs/ranger"/></url>
+  <url><loc>https://devnotes.fr/docs/securite</loc><xhtml:link rel="alternate" hreflang="fr" href="https://devnotes.fr/docs/securite"/><xhtml:link rel="alternate" hreflang="en" href="https://devnotes.fr/en/docs/security"/><xhtml:link rel="alternate" hreflang="x-default" href="https://devnotes.fr/docs/securite"/></url>
+  <url><loc>https://devnotes.fr/en</loc><xhtml:link rel="alternate" hreflang="fr" href="https://devnotes.fr/"/><xhtml:link rel="alternate" hreflang="en" href="https://devnotes.fr/en"/><xhtml:link rel="alternate" hreflang="x-default" href="https://devnotes.fr/"/></url>
+  <url><loc>https://devnotes.fr/en/docs</loc><xhtml:link rel="alternate" hreflang="fr" href="https://devnotes.fr/docs"/><xhtml:link rel="alternate" hreflang="en" href="https://devnotes.fr/en/docs"/><xhtml:link rel="alternate" hreflang="x-default" href="https://devnotes.fr/docs"/></url>
+  <url><loc>https://devnotes.fr/en/docs/api-client</loc><xhtml:link rel="alternate" hreflang="fr" href="https://devnotes.fr/docs/client-api"/><xhtml:link rel="alternate" hreflang="en" href="https://devnotes.fr/en/docs/api-client"/><xhtml:link rel="alternate" hreflang="x-default" href="https://devnotes.fr/docs/client-api"/></url>
+  <url><loc>https://devnotes.fr/en/docs/faq</loc><xhtml:link rel="alternate" hreflang="fr" href="https://devnotes.fr/docs/faq"/><xhtml:link rel="alternate" hreflang="en" href="https://devnotes.fr/en/docs/faq"/><xhtml:link rel="alternate" hreflang="x-default" href="https://devnotes.fr/docs/faq"/></url>
+  <url><loc>https://devnotes.fr/en/docs/getting-started</loc><xhtml:link rel="alternate" hreflang="fr" href="https://devnotes.fr/docs/prise-en-main"/><xhtml:link rel="alternate" hreflang="en" href="https://devnotes.fr/en/docs/getting-started"/><xhtml:link rel="alternate" hreflang="x-default" href="https://devnotes.fr/docs/prise-en-main"/></url>
+  <url><loc>https://devnotes.fr/en/docs/import-export</loc><xhtml:link rel="alternate" hreflang="fr" href="https://devnotes.fr/docs/import-export"/><xhtml:link rel="alternate" hreflang="en" href="https://devnotes.fr/en/docs/import-export"/><xhtml:link rel="alternate" hreflang="x-default" href="https://devnotes.fr/docs/import-export"/></url>
+  <url><loc>https://devnotes.fr/en/docs/organising</loc><xhtml:link rel="alternate" hreflang="fr" href="https://devnotes.fr/docs/ranger"/><xhtml:link rel="alternate" hreflang="en" href="https://devnotes.fr/en/docs/organising"/><xhtml:link rel="alternate" hreflang="x-default" href="https://devnotes.fr/docs/ranger"/></url>
+  <url><loc>https://devnotes.fr/en/docs/quick-paste</loc><xhtml:link rel="alternate" hreflang="fr" href="https://devnotes.fr/docs/collage-rapide"/><xhtml:link rel="alternate" hreflang="en" href="https://devnotes.fr/en/docs/quick-paste"/><xhtml:link rel="alternate" hreflang="x-default" href="https://devnotes.fr/docs/collage-rapide"/></url>
+  <url><loc>https://devnotes.fr/en/docs/security</loc><xhtml:link rel="alternate" hreflang="fr" href="https://devnotes.fr/docs/securite"/><xhtml:link rel="alternate" hreflang="en" href="https://devnotes.fr/en/docs/security"/><xhtml:link rel="alternate" hreflang="x-default" href="https://devnotes.fr/docs/securite"/></url>
+  <url><loc>https://devnotes.fr/en/docs/settings</loc><xhtml:link rel="alternate" hreflang="fr" href="https://devnotes.fr/docs/preferences"/><xhtml:link rel="alternate" hreflang="en" href="https://devnotes.fr/en/docs/settings"/><xhtml:link rel="alternate" hreflang="x-default" href="https://devnotes.fr/docs/preferences"/></url>
+  <url><loc>https://devnotes.fr/en/docs/tools</loc><xhtml:link rel="alternate" hreflang="fr" href="https://devnotes.fr/docs/outils"/><xhtml:link rel="alternate" hreflang="en" href="https://devnotes.fr/en/docs/tools"/><xhtml:link rel="alternate" hreflang="x-default" href="https://devnotes.fr/docs/outils"/></url>
+  <url><loc>https://devnotes.fr/en/docs/writing</loc><xhtml:link rel="alternate" hreflang="fr" href="https://devnotes.fr/docs/ecrire"/><xhtml:link rel="alternate" hreflang="en" href="https://devnotes.fr/en/docs/writing"/><xhtml:link rel="alternate" hreflang="x-default" href="https://devnotes.fr/docs/ecrire"/></url>
+  <url><loc>https://devnotes.fr/en/download</loc><xhtml:link rel="alternate" hreflang="fr" href="https://devnotes.fr/telecharger"/><xhtml:link rel="alternate" hreflang="en" href="https://devnotes.fr/en/download"/><xhtml:link rel="alternate" hreflang="x-default" href="https://devnotes.fr/telecharger"/></url>
+  <url><loc>https://devnotes.fr/telecharger</loc><xhtml:link rel="alternate" hreflang="fr" href="https://devnotes.fr/telecharger"/><xhtml:link rel="alternate" hreflang="en" href="https://devnotes.fr/en/download"/><xhtml:link rel="alternate" hreflang="x-default" href="https://devnotes.fr/telecharger"/></url>
 </urlset>
